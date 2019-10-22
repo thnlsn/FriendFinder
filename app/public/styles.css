@@ -1,5 +1,9 @@
-.main {
-    height: 60vh;
-    margin: 20vh auto;
+.jumbotron {
+    height: 25rem;
+    margin: 20vh auto 0 auto;
+}
+
+.links {
+    margin: .1rem auto 0 auto;
 }
 
