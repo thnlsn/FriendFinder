@@ -68,8 +68,6 @@ let friends = [
 ];
 
 //웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟
-let array1 = [1, 4, 3, 4, 5];
-let array2 = [5, 4, 2, 2, 1];
 
 function calcDifference(arr1, arr2) {
     let arr = [];
@@ -83,8 +81,5 @@ function calcDifference(arr1, arr2) {
     let sum = arr.reduce(function(passedIn, value){
         return passedIn + value;
     }, 0);
-    console.log(sum);
     return sum;
 };
-
-calcDifference(array1, array2);
