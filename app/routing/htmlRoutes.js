@@ -1,6 +1,7 @@
-/* const express = require('express');
-const path = require('path');
+console.log('apiRoutes.js working')
 
-module.exports = function(app) {
-    app.use(express.static(path.join(__dirname, '/app/public')));
-}; */
+module.exports = function (app) {
+  app.get('/', function(req, res){
+    res.redirect('/home.html');
+  });
+}

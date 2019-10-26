@@ -1,3 +1,5 @@
+console.log('server.js working')
+
 const express = require('express');
 const path = require('path');
 
@@ -7,6 +9,11 @@ const PORT = process.env.PORT || 5050;
 
 //웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟
 
+app.use(express.static(path.join(__dirname, '/app/public')));
+
+require('./app/routing/apiRoutes')(app);
+require('./app/routing/htmlRoutes')(app);
+
 /* const logger = (req, res, next) => {
     console.log(`${req.protocol}://${req.get('host')}${req.originalUrl}`)
 };
@@ -14,11 +21,7 @@ const PORT = process.env.PORT || 5050;
 app.use(logger); */
 
 //웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟
-app.get('/', function(req, res){
-    res.redirect('/home.html');
-});
 
-app.use(express.static(path.join(__dirname, '/app/public')));
 
 /* let apiRoutes = require('./app/routing/apiRoutes')
 app.get('apiRoutes', apiRoutes.foo); */
@@ -26,6 +29,55 @@ app.get('apiRoutes', apiRoutes.foo); */
 /* let htmlRoutes = require('./app/routing/htmlRoutes') */
 
 //웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 app.listen(PORT, () => console.log(`Server started on ${PORT}`));
 
