@@ -1,9 +1,16 @@
 .jumbotron {
     height: 25rem;
     margin: 20vh auto 0 auto;
-}
+};
 
 .links {
     margin: .1rem auto 0 auto;
-}
+};
 
+h1 {
+    margin-top: 20;
+};
+
+.form-control {
+    width: 500px !important;
+}
