@@ -2,20 +2,10 @@ console.log("friends.js working");
 
 //웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟웃̟͟͟웃̟͟͟웃̟͟
 
-let questions = [
-    "Who?",
-    "What?",
-    "When?",
-    "Where?",
-    "Why?",
-    "Which",
-    "How",
-];
-
 let friends = [
     { //OBJECT 0
-        name: 'Finn Bálor',
-        photo: '',
+        name: 'Arthur Fleck',
+        photo: 'https://pbs.twimg.com/media/DnP8Y_BXcAEE83s.jpg',
         scores: [
             1,
             2,
@@ -24,11 +14,14 @@ let friends = [
             5,
             1,
             2,
+            5,
+            2,
+            3
         ]
     },
     { //OBJECT 1
-        name: 'Shinsuke Nakamura',
-        photo: '',
+        name: 'Nathan Bateman',
+        photo: 'https://vignette.wikia.nocookie.net/villains/images/b/b9/Nathanmachina.jpg',
         scores: [
             5,
             4,
@@ -37,11 +30,14 @@ let friends = [
             1,
             5,
             4,
+            1,
+            1,
+            2
         ]
     },
     { //OBJECT 2
-        name: 'Enzo Amore',
-        photo: '',
+        name: 'Clarice Starling',
+        photo: 'https://i.pinimg.com/originals/9d/8b/e6/9d8be6dcc520885ca1d1ceb04b522a20.jpg',
         scores: [
             3,
             2,
@@ -49,13 +45,19 @@ let friends = [
             2,
             3,
             4,
-            5,
+            4,
+            2,
+            1,
+            6
         ]
     },
-    {
-        name: '"The Fiend" Bray Wyatt',
-        photo: '',
+    { //OBJECT 3
+        name: 'Louise Banks',
+        photo: 'https://cdn1us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2016/11/arrival_ending_explained.jpg',
         scores: [
+            5,
+            5,
+            5,
             5,
             5,
             5,
